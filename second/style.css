@@ -1,0 +1,27 @@
+div {
+  height:800px;
+  width:33%;
+  background-color: #0077cc;
+  float: left;
+  margin: 0 0;
+}
+
+div:nth-child(2) {
+  background-color: #0da;
+}
+
+div:nth-child(3) {
+  background-color: #ae9;
+  height: 650px;
+}
+
+div:nth-child(4) {
+  background-color: #c00;
+  height: 150px;
+}
+
+img {
+  width:80%;
+  box-sizing: border-box;
+  margin: 30% 10%;
+}

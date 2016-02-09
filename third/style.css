@@ -1,0 +1,35 @@
+main {
+  padding: 30px;
+}
+
+div {
+  height:100px;
+  background-color: #48c;
+  margin: 0 0;
+}
+
+span {
+  display: block;
+  box-sizing: border-box;
+  height: 80px;
+  width: 80px;
+  background-color: #48c;
+}
+
+div:nth-child(1) {
+  background-color: #ccc;
+  padding: 10px 15px;
+  box-sizing: border-box;
+}
+
+div:nth-child(4) {
+  background-color: #6da;
+}
+
+div:nth-child(5) {
+  background-color: #ad7;
+}
+
+div:nth-child(6) {
+  background-color: #fe0;
+}
